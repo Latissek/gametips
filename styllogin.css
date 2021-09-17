@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+body{
+    background-image: url(images/Pozadilogin1.png);
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    padding-left: 500px;
+    padding-right: 500px;
+}
+section, h2, h1 {
+    /*background: rgba(0,0,0,.8);*/
+    background-color: rgba(209, 209, 209, 0.8);
+    display: block;
+    border: solid white;
+    padding-left: 10px;
+}
+#vetsi {
+    text-align: center;
+    font-weight: bold;
+    font-size: 150%;
+    
+}
+#mensi {
+    text-align: center;
+    font-weight: bold;
+    font-size: 135%;
+}
+form{
+    padding-left: 25px;
+}

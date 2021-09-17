@@ -1,0 +1,37 @@
+sračka na pravém horním rohu stránky na login/logout
+formulář na přidání příspěvků - hotovo poggers
+zobrazovaní příspěvků
+filtrace příspěvků
+maby komentáře ale asi ne bo jsem líný 
+fing CSS na všechno - zapnout nechapu.exe :)
+
+
+
+starý už je to opravený :) 
+function getSpec(){
+        $servername="remotemysql.com";
+        $dbusername="FD3plFzaSa";
+        $dbpassword="Gb83VmnrNG";
+        $dbname="FD3plFzaSa";
+        $connf = mysqli_connect($servername, $dbusername, $dbpassword, $dbname);
+        $test = $_COOKIE["classa"];
+        echo $test."   ".getSusenka()."   ";
+        if(isset($_COOKIE["classa"]) && $_COOKIE["classa"]!='error'){
+            $specDot = "SELECT * FROM spec WHERE Class = '{$_COOKIE["clasa"]}'";
+            s
+            $vysledek = mysqli_query($connf,$specDot);
+            while($zaznam = mysqli_fetch_assoc($vysledek)){
+            echo $zaznam["Spec"]. ",";
+            echo $_COOKIE["classa"] . "šušenka    ";
+            }echo $specDot;
+        }
+        
+        else
+        echo "pepega";  
+    }
+    ;
+
+
+    $specDH = "SELECT * FROM spec WHERE Class = '
+    Demon Hunter
+    '";

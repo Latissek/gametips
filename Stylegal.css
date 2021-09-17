@@ -1,0 +1,76 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+    .gallery {
+    margin: 10px 50px;
+   /* position: relative;
+    left:150px;*/
+}
+
+    .gallery img {
+        transition: 1s;
+        padding: 15px;
+        width: 400px;
+    }
+
+.gallery img:hover {
+    filter: grayscale(75%);
+    transform: scale(1.1);
+}
+nav ul {
+    background-color: #204B99;
+    list-style-type: none;
+    padding-left: 0;
+
+    /*padding: 0px 0px 0px 0px;*/
+}
+
+nav li {
+    display: inline-block;
+    width:16.666666666%;
+    color: white;
+
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    padding: 5px 10px;
+    color: white;
+    background-color: #204B99;
+    font-size: 85%;
+}
+
+    nav a:hover {
+        background-color: #45CEBB;
+        color: #fff;
+    }
+.navigace {
+    display: block;
+    text-align: right;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 1s ease;
+    position: absolute;
+}
+
+    .navigace a {
+        display: block;
+        padding: 0;
+        width: 200px;
+        height: 36px;
+        text-align: center;
+    }
+
+li:hover .navigace {
+    opacity: 1;
+    visibility: visible;
+}
+
+    li:hover .navigace a {
+        margin-top: 0;
+        opacity: 1;
+    }
+

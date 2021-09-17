@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+#gw{
+    background-image: url(images/pozadi_foragw.png);
+}
+#wow{
+    background-image: url(images/pozadi_forum.png);
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+ section, h2, h1{/*  */
+    /*background: rgba(0,0,0,.8);*/
+    background-color: rgba(209, 209, 209, 0.8);
+    display: block;
+    border: solid white;
+    padding-left: 10px;
+}
+a{
+    text-decoration-color: #2A2A2A;
+    color: #2A2A2A;
+}
+h2{
+    padding-left:25px;
+}
+header h1 {
+    text-align: center;
+}
+
+table caption {
+    font-size: 80%;
+    color: #61676B;
+}
+
+table th, tr, td, table, article caption {
+    text-align: center;
+    border: solid;
+    border-color: black;
+    border-collapse: collapse;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0;
+    padding: 10px;
+}
+table {
+    width: 100%;
+    padding-left:0;
+}
+nav ul {
+    background-color: #204B99;
+    list-style-type: none;
+    padding-left: 0;
+    
+}
+
+nav li {
+    display: inline-block;
+    width:16.666666666%;
+    color:white;
+    
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    padding: 5px 10px;
+    color: white;
+    background-color: #204B99;
+    font-size:85%;
+}
+
+nav a:hover {
+        background-color: #45CEBB;
+        color: #fff;
+}
+
+.navigace {
+    display: block;
+    text-align: right;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 1s ease;
+    position:absolute;
+}
+
+.navigace a {
+        display: block;
+        padding: 0;
+        width:200px;
+        height: 36px;
+        text-align:center;
+    }
+
+li:hover .navigace {
+    opacity: 1;
+    visibility: visible;
+}
+
+li:hover .navigace a {
+        margin-top: 0;
+        opacity: 1;
+}
+
+#newf {
+    text-align: center;
+}
